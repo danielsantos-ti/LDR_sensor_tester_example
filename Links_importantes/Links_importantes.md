@@ -25,7 +25,10 @@ Este documento contém uma lista organizada de links importantes e referências 
 ## 📚 Tutoriais e Guias  
 - [Guia de Primeiros Passos no Arduino](https://www.arduino.cc/en/Guide) - Introdução oficial ao Arduino.  
 - [Curso de Arduino - FilipeFlop](https://www.filipeflop.com/blog/arduino/) - Tutoriais e projetos com Arduino.  
-- [Instructables - Arduino](https://www.instructables.com/circuits/arduino/) - Projetos passo a passo para Arduino.  
+- [Instructables - Arduino](https://www.instructables.com/circuits/arduino/) - Projetos passo a passo para Arduino.
+- [Arduino - Grandezas digitais, analógicas e PWM](https://portal.vidadesilicio.com.br/grandezas-digitais-e-analogicas-e-pwm/)
+- [https://portal.vidadesilicio.com.br/entradas-e-saidas-analogicas/](https://portal.vidadesilicio.com.br/entradas-e-saidas-analogicas/)
+- [Entendendo as Entradas Analógicas do Arduino](https://embarcados.com.br/arduino-entradas-analogicas/)
 
 ---
 
