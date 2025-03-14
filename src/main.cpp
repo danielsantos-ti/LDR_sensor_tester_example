@@ -29,15 +29,22 @@ void loop() {
   // Leitura do sensor
   int valorDoSensor = analogRead(sensorLDR_pin);
 
+  // Mapeamento do valor do sensor
+  int valorMapeado = map(valorDoSensor, 0, 1023, 0, 255);
+
   // Controle do rele
-  if (valorDoSensor > 500){
+  if (valorMapeado > 125){
     digitalWrite(relePin, HIGH);
   }else{
     digitalWrite(relePin, LOW);
   }
 
   // Exibição do valor do sensor
-  Serial.println(valorDoSensor);
+  Serial.print("Valor do sensor: ");
+  Serial.print(valorDoSensor);
+  Serial.print(" | Valor mapeado: ");
+  Serial.println(valorMapeado);
+
   delay(1000);
 
 }
